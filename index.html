@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light">
+<link rel="icon" href="data:image/png;base64,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">
+<meta name="description" content="Entrena las decisiones clave de los supuestos prácticos de Pedagogía Terapéutica: modalidad de escolarización, medidas específicas, referente curricular y ámbitos del Programa Específico. 15 supuestos reales de oposición de Andalucía.">
+<!-- Vista previa al compartir el enlace (WhatsApp, Classroom, Telegram, redes). -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Entrenador de Supuestos Prácticos PT">
+<meta property="og:description" content="Lee. Detecta. Decide. 15 supuestos reales de oposición de Pedagogía Terapéutica en Andalucía.">
+<meta property="og:image" content="https://mptlod.github.io/entrenador-pt/portada.jpg">
+<meta property="og:url" content="https://mptlod.github.io/entrenador-pt/">
+<meta property="og:locale" content="es_ES">
+<meta name="twitter:card" content="summary_large_image">
+<title>Entrenador de Supuestos Prácticos PT · Los PTips de Miguel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Source+Serif+4:opsz,wght@8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --naranja:#FD5F00;
+  --naranja-texto:#B84400;
+  --naranja-suave:#FFF0E4;
+  --naranja-linea:#FFD2B3;
+  --papel:#FFFCF8;
+  --blanco:#FFFFFF;
+  --tinta:#1F1A17;
+  --gris:#6B625B;
+  --gris-claro:#9A918A;
+  --linea:#EDE3D8;
+  --verde:#1D7F45; --verde-suave:#E8F5ED;
+  --rojo:#C0322B;  --rojo-suave:#FCEBE9;
+  --parcial:#8F5500; --parcial-suave:#FFF4DC;
+  --ui:"Bricolage Grotesque","Segoe UI",system-ui,-apple-system,sans-serif;
+  --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --marco:5px;
+  --cab:92px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--papel);color:var(--tinta);
+  font-family:var(--ui);font-size:16px;line-height:1.5;
+  -webkit-font-smoothing:antialiased;min-height:100vh;
+}
+body::before{
+  content:"";position:fixed;inset:0;border:var(--marco) solid var(--naranja);
+  pointer-events:none;z-index:50;
+}
+button{font-family:inherit}
+:focus-visible{outline:3px solid var(--naranja);outline-offset:3px;border-radius:6px}
+.oculto{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+
+/* ---------- Cabecera ---------- */
+.cab{
+  display:flex;align-items:center;gap:20px;
+  padding:14px calc(var(--marco) + 22px) 12px;
+  background:var(--papel);border-bottom:1px solid var(--linea);
+}
+.cab-info{flex:1;min-width:0}
+.cab-marca{font-weight:700;font-size:15px;letter-spacing:-.01em;display:flex;flex-wrap:wrap;align-items:center;gap:6px 12px}
+.chip{font-size:13px;font-weight:600;color:var(--naranja-texto);background:var(--naranja-suave);border:1px solid var(--naranja-linea);padding:1px 10px;border-radius:99px}
+.enlace{background:none;border:0;padding:2px 0;color:var(--gris);font-size:13px;text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+.enlace:hover{color:var(--naranja-texto)}
+.logo{display:block;height:var(--cab);width:auto;flex:none;aspect-ratio:217/300}
+.logo-inicio{--cab:150px}
+.cab-inicio{display:block;position:relative;border-bottom:0;padding-top:30px;padding-bottom:0}
+.cab-inicio .cab-info{max-width:1040px;margin:0 auto;padding-right:150px}
+.cab-inicio .logo{position:absolute;top:18px;right:calc(var(--marco) + 22px)}
+.cab-inicio h1{font-size:clamp(34px,5.4vw,58px);line-height:1.02;font-weight:800;letter-spacing:-.035em;margin:10px 0 14px;max-width:14ch}
+.cab-inicio .sub{font-size:clamp(17px,2vw,20px);color:var(--gris);margin:0;max-width:46ch}
+
+.progreso{display:flex;flex-wrap:wrap;align-items:center;gap:6px 18px;margin-top:8px}
+.prog-txt{font-weight:700;font-size:15px;white-space:nowrap}
+.barra{height:4px;background:var(--linea);border-radius:4px;overflow:hidden}
+.barra>i{display:block;height:100%;background:var(--naranja);border-radius:4px;transition:width .5s ease}
+.prog-barra{flex:1;min-width:120px;max-width:340px}
+.stats{display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:8px;font-size:13px;color:var(--gris)}
+.stats b{color:var(--tinta);font-weight:700}
+.stat-mini{display:inline-flex;align-items:center;gap:6px}
+.stat-mini .barra{width:34px;height:3px}
+
+/* ---------- Inicio ---------- */
+.inicio{max-width:1084px;margin:0 auto;padding:30px calc(var(--marco) + 22px) 64px}
+
+.niveles{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+.nivel{
+  background:var(--blanco);border:1px solid var(--linea);border-radius:14px;
+  padding:24px 24px 22px;display:flex;flex-direction:column;
+}
+.nivel.av{border-color:var(--naranja-linea);box-shadow:inset 0 4px 0 var(--naranja)}
+.nivel-num{font-size:13px;font-weight:600;color:var(--naranja-texto);margin:0}
+.nivel h2{font-size:28px;font-weight:800;letter-spacing:-.02em;margin:2px 0 6px}
+.nivel p.desc{margin:0 0 18px;color:var(--gris)}
+.pasos{list-style:none;margin:0 0 22px;padding:0;counter-reset:p;flex:1}
+.pasos li{counter-increment:p;position:relative;padding:0 0 12px 38px;font-weight:500}
+.pasos li::before{
+  content:counter(p);position:absolute;left:0;top:-1px;width:26px;height:26px;border-radius:50%;
+  border:2px solid var(--naranja);color:var(--naranja-texto);font-weight:700;font-size:13px;
+  display:grid;place-items:center;background:var(--blanco);z-index:1;
+}
+.pasos li:not(:last-child)::after{content:"";position:absolute;left:12px;top:24px;bottom:0;width:2px;background:var(--naranja-linea)}
+.pasos li small{display:block;color:var(--gris-claro);font-weight:400;font-size:13px}
+.nota-banco{margin:28px 0 0;font-size:14px;color:var(--gris);border-left:3px solid var(--naranja-linea);padding:4px 0 4px 12px;max-width:70ch}
+.continuar{font-size:13px;color:var(--gris);margin:8px 0 0;text-align:center}
+
+/* ---------- Botones ---------- */
+.btn{
+  display:inline-flex;justify-content:center;align-items:center;gap:8px;
+  font-weight:800;font-size:15px;letter-spacing:.02em;
+  padding:14px 22px;border-radius:10px;cursor:pointer;border:2px solid var(--naranja);
+  background:var(--naranja);color:var(--tinta);transition:background .15s,transform .1s;
+}
+.btn:hover{background:#FF7A26}
+.btn:active{transform:translateY(1px)}
+.btn[disabled]{background:var(--linea);border-color:var(--linea);color:var(--gris-claro);cursor:not-allowed}
+.btn-sec{background:var(--blanco);color:var(--naranja-texto)}
+.btn-sec:hover{background:var(--naranja-suave)}
+.btn-bloque{width:100%}
+
+/* ---------- Entrenador ---------- */
+.zona{
+  max-width:1240px;margin:0 auto;padding:22px calc(var(--marco) + 22px) 70px;
+  display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,1fr);gap:28px;align-items:start;
+}
+.enunciado{
+  background:var(--blanco);border:1px solid var(--linea);border-radius:12px;
+  padding:26px 30px 30px;position:sticky;top:18px;
+  max-height:calc(100vh - 36px);overflow:auto;
+}
+.enunciado h2{font-family:var(--ui);font-size:15px;font-weight:700;margin:0 0 16px;color:var(--tinta)}
+.enunciado .texto{font-family:var(--serif);font-size:17px;line-height:1.68;max-width:68ch}
+.enunciado .texto p{margin:0 0 1em;text-align:left}
+.enunciado .texto p:last-child{margin:0}
+.enunciado .texto ul{margin:0 0 1em;padding-left:1.25em}
+.enunciado .texto li{margin:0 0 .35em}
+.enunciado .texto ul:last-child{margin-bottom:0}
+
+.carril{list-style:none;margin:0;padding:0}
+.preg{position:relative;padding:0 0 26px 50px;scroll-margin-top:20px}
+.preg::before{
+  content:attr(data-n);position:absolute;left:0;top:0;width:34px;height:34px;border-radius:50%;
+  background:var(--blanco);border:2px solid var(--naranja);color:var(--naranja-texto);
+  font-weight:800;font-size:15px;display:grid;place-items:center;z-index:1;transition:border-color .3s,background .3s,color .3s;
+}
+.preg:not(:last-child)::after{content:"";position:absolute;left:16px;top:34px;bottom:0;width:2px;background:var(--naranja-linea)}
+.preg[data-estado="correcto"]::before,.preg[data-estado="valida"]::before{border-color:var(--verde);background:var(--verde);color:#fff}
+.preg[data-estado="incorrecto"]::before{border-color:var(--rojo);background:var(--rojo);color:#fff}
+.preg[data-estado="parcial"]::before{border-color:var(--parcial);background:var(--parcial);color:#fff}
+.preg[data-estado="info"]::before{border-color:var(--gris-claro);color:var(--gris)}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+legend{padding:0;font-size:19px;font-weight:700;letter-spacing:-.01em;line-height:1.3;margin:4px 0 4px}
+.preg-ayuda{font-size:13px;color:var(--gris);margin:0 0 10px;display:flex;gap:10px;flex-wrap:wrap}
+.tag-np{color:var(--naranja-texto);font-weight:600}
+.ops{display:grid;gap:8px}
+.op{
+  position:relative;display:flex;align-items:flex-start;gap:12px;
+  background:var(--blanco);border:1.5px solid var(--linea);border-radius:10px;
+  padding:11px 14px;cursor:pointer;transition:border-color .15s,background .15s;
+}
+.op:hover{border-color:var(--naranja-linea)}
+.op input{position:absolute;opacity:0;pointer-events:none}
+.marca{
+  flex:none;width:20px;height:20px;margin-top:2px;border:2px solid #CFC4B9;background:var(--blanco);
+  display:grid;place-items:center;transition:border-color .15s,background .15s;
+}
+.op[data-tipo="unica"] .marca{border-radius:50%}
+.op[data-tipo="multiple"] .marca{border-radius:5px}
+.marca::after{content:"";width:8px;height:8px;border-radius:50%;background:transparent}
+.op[data-tipo="multiple"] .marca::after{width:10px;height:6px;border-radius:0;border-left:2.5px solid transparent;border-bottom:2.5px solid transparent;transform:rotate(-45deg) translate(1px,-1px)}
+.op-txt{flex:1}
+.op:has(input:checked){border-color:var(--naranja);background:var(--naranja-suave)}
+.op input:checked + .marca{border-color:var(--naranja);background:var(--naranja)}
+.op[data-tipo="unica"] input:checked + .marca::after{background:var(--tinta)}
+.op[data-tipo="multiple"] input:checked + .marca::after{border-color:var(--tinta)}
+.op input:focus-visible + .marca{outline:3px solid var(--naranja);outline-offset:3px}
+fieldset[disabled] .op{cursor:default}
+fieldset[disabled] .op:hover{border-color:var(--linea)}
+.op-tag{flex:none;font-size:12px;font-weight:600;padding:1px 8px;border-radius:99px;margin-top:2px;white-space:nowrap}
+
+/* estados tras corregir */
+.op.ok{border-color:var(--verde)!important;background:var(--verde-suave)!important}
+.op.ok .marca{border-color:var(--verde)!important;background:var(--verde)!important}
+.op.ok .op-tag{background:var(--verde);color:#fff}
+.op.mal{border-color:var(--rojo)!important;background:var(--rojo-suave)!important}
+.op.mal .marca{border-color:var(--rojo)!important;background:var(--rojo)!important}
+.op.mal .op-tag{background:var(--rojo);color:#fff}
+.op.falta{border-style:dashed!important;border-color:var(--verde)!important;background:var(--blanco)!important}
+.op.falta .op-tag{color:var(--verde);border:1px solid var(--verde)}
+.op.prior{border-color:var(--naranja)!important}
+.op.prior .op-tag{background:var(--naranja-suave);color:var(--naranja-texto);border:1px solid var(--naranja-linea)}
+.op.apagada{opacity:.62}
+
+.fb{margin-top:12px;border-radius:10px;padding:12px 16px 13px;font-size:15px;line-height:1.55}
+.fb p{margin:0}.fb p+p{margin-top:6px}
+.fb-est{font-weight:800;margin-bottom:4px!important;display:flex;align-items:center;gap:8px}
+.fb-est .sim{font-size:17px;line-height:1}
+.fb[data-e="correcto"],.fb[data-e="valida"]{background:var(--verde-suave)}
+.fb[data-e="correcto"] .fb-est,.fb[data-e="valida"] .fb-est{color:var(--verde)}
+.fb[data-e="incorrecto"]{background:var(--rojo-suave)}
+.fb[data-e="incorrecto"] .fb-est{color:var(--rojo)}
+.fb[data-e="parcial"]{background:var(--parcial-suave)}
+.fb[data-e="parcial"] .fb-est{color:var(--parcial)}
+.fb[data-e="info"]{background:#F6F2ED}
+.fb[data-e="info"] .fb-est{color:var(--gris)}
+.fb .pista{color:#4A423C}
+.fb .pista b{font-weight:600}
+
+.acciones{padding-left:50px}
+.aviso{font-size:13px;color:var(--gris);margin:10px 0 0;text-align:center}
+
+.resultado{margin:6px 0 18px 50px}
+.nota{display:flex;align-items:baseline;gap:10px;margin-bottom:8px}
+.nota strong{font-size:44px;font-weight:800;letter-spacing:-.04em;line-height:1}
+.nota span{color:var(--gris);font-size:15px}
+.resultado>.barra{display:block}
+.claves{
+  background:var(--blanco);border:2px solid var(--naranja);border-radius:14px;padding:20px 22px 18px;margin-top:14px;
+}
+.claves h3{font-size:22px;font-weight:800;letter-spacing:-.02em;margin:0 0 12px}
+.claves dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:6px 14px}
+.claves dt{font-weight:700}
+.claves dd{margin:0}
+.claves h4{font-size:16px;font-weight:700;margin:16px 0 4px;color:var(--naranja-texto)}
+.claves .detectar{margin:0;color:#3D3631}
+.botones{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.botones .btn{flex:1 1 200px}
+
+.entra{animation:entra .35s ease both}
+@keyframes entra{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+
+/* ---------- Fin de ronda ---------- */
+.fin{max-width:720px;margin:0 auto;padding:40px calc(var(--marco) + 22px) 70px}
+.fin h1{font-size:clamp(34px,5vw,50px);font-weight:800;letter-spacing:-.035em;margin:0 0 6px;line-height:1.05}
+.fin .sub{color:var(--gris);margin:0 0 26px;font-size:18px}
+.tabla-fin{background:var(--blanco);border:1px solid var(--linea);border-radius:14px;padding:8px 22px}
+.fila{display:grid;grid-template-columns:1fr auto;gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--linea);align-items:center}
+.fila:last-child{border-bottom:0}
+.fila .val{font-weight:800;font-size:18px;text-align:right}
+.fila .barra{grid-column:1/-1;height:4px}
+.diag{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:18px 0 24px}
+.diag div{border-radius:12px;padding:14px 18px;background:var(--naranja-suave);border:1px solid var(--naranja-linea)}
+.diag div.rev{background:var(--blanco);border-color:var(--linea)}
+.diag dt{font-size:14px;font-weight:600;color:var(--naranja-texto)}
+.diag div.rev dt{color:var(--gris)}
+.diag dd{margin:2px 0 0;font-weight:700;font-size:17px}
+
+/* ---------- Responsive ---------- */
+@media (max-width:1000px){
+  .zona{grid-template-columns:1fr;gap:24px}
+  .enunciado{position:static;max-height:none;overflow:visible}
+}
+@media (max-width:640px){
+  :root{--marco:3px;--cab:62px}
+  .logo-inicio{--cab:88px}
+  .cab-inicio{padding-top:16px}
+  .cab-inicio .cab-info{padding-right:72px}
+  .cab-inicio .logo{top:12px;right:14px}
+  .stats{display:grid;grid-template-columns:1fr 1fr;gap:2px 12px;font-size:12.5px;line-height:1.35}
+  .stats>span{display:block}
+  .stat-mini .barra{display:none}
+  .cab-inicio h1{margin-top:4px}
+  .cab{padding:10px 16px 10px;gap:12px;align-items:flex-start}
+  .inicio,.zona,.fin{padding-left:16px;padding-right:16px}
+  .inicio{padding-top:22px}
+  .enunciado{padding:20px 18px 22px}
+  .enunciado .texto{font-size:16.5px}
+  .preg{padding-left:44px}
+  .preg::before{width:30px;height:30px;font-size:14px}
+  .preg:not(:last-child)::after{left:14px;top:30px}
+  .acciones,.resultado{padding-left:0;margin-left:0}
+  legend{font-size:18px}
+  .claves dl{grid-template-columns:1fr;gap:0}
+  .claves dd{margin-bottom:8px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  .entra{animation:none}
+  .barra>i{transition:none}
+}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<p class="oculto" id="anuncio" role="status"></p>
+
+<script>
+/* =====================================================================
+   LOS PTIPS DE MIGUEL — ENTRENADOR DE SUPUESTOS PRÁCTICOS PT
+   Banco cerrado de 15 supuestos reales. Esta aplicación no crea casos.
+   ===================================================================== */
+
+/* ---------------------------------------------------------------------
+   1. SOLUCIONES VALIDADAS (tabla del apartado 13, sin modificar)
+   --------------------------------------------------------------------- */
+const BANCO = [
+  { anio:2025, numero:1, modalidad:"C", medidas:["aci"],
+    referente:{ validas:["inf2"] }, pe:null },
+  { anio:2025, numero:2, modalidad:"ninguna", medidas:["pe"],
+    referente:null,
+    pe:{ ambitos:["comunicativo"], clave:"Desarrollo comunicativo y lingüístico" } },
+  { anio:2025, numero:3, modalidad:"B", medidas:["acs_lengua","acs_mat","pe"],
+    referente:{ validas:["p1"] },
+    pe:{ ambitos:["social","cognitivo"], clave:"Desarrollo social y emocional + desarrollo cognitivo / funciones ejecutivas" } },
+  { anio:2022, numero:1, modalidad:"B", medidas:["pe"],
+    referente:null,
+    pe:{ ambitos:["cognitivo"], clave:"Desarrollo cognitivo / funciones ejecutivas" } },
+  { anio:2022, numero:2, modalidad:"B", medidas:["pe"],
+    referente:null,
+    pe:{ ambitos:["comunicativo","psicomotor","social"], clave:"Desarrollo comunicativo y lingüístico + desarrollo motor / psicomotor + desarrollo social y emocional" } },
+  { anio:2022, numero:3, modalidad:"C", medidas:["aci"],
+    referente:{ validas:["inf1","inf2"], preferente:"inf1" }, pe:null },
+  { anio:2019, numero:1, modalidad:"B", medidas:["pe"],
+    referente:null,
+    pe:{ ambitos:["cognitivo"], clave:"Desarrollo cognitivo / funciones ejecutivas" } },
+  { anio:2019, numero:2, modalidad:"C", medidas:["aci"],
+    referente:{ validas:["inf1","inf2"], preferente:"inf1" }, pe:null },
+  { anio:2019, numero:3, modalidad:"B", medidas:["acs_lengua","pe"],
+    referente:{ validas:["p1"] },
+    pe:{ ambitos:["cognitivo","autonomia","social"], clave:"Desarrollo cognitivo + autonomía + desarrollo social y emocional" } },
+  { anio:2017, numero:1, modalidad:"C", medidas:["aci"],
+    referente:{ validas:["inf1"] }, pe:null },
+  { anio:2017, numero:2, modalidad:"B", medidas:["pe"],
+    referente:null,
+    pe:{ ambitos:["social"], clave:"Desarrollo social y emocional" } },
+  { anio:2015, numero:1, modalidad:"B", medidas:["acs_lengua","pe"],
+    referente:{ validas:["p1"] },
+    pe:{ ambitos:["cognitivo"], admitidos:["comunicativo"], clave:"Desarrollo cognitivo (también se admite desarrollo comunicativo y lingüístico)" } },
+  { anio:2015, numero:2, modalidad:"B", medidas:["acs_lengua","acs_mat","pe"],
+    referente:{ validas:["p1"] },
+    pe:{ ambitos:["social","psicomotor"], clave:"Desarrollo social y emocional + desarrollo motor / psicomotor" } },
+  { anio:2013, numero:1, modalidad:"B", medidas:["acs_lengua","acs_mat","pe"],
+    referente:{ validas:["inf2"] },
+    pe:{ ambitos:["cognitivo","psicomotor","autonomia","comunicativo"], clave:"Desarrollo cognitivo + desarrollo motor / psicomotor + autonomía + desarrollo comunicativo y lingüístico" } },
+  { anio:2013, numero:2, modalidad:"B", medidas:["acs_lengua","acs_mat","pe"],
+    referente:{ validas:["p1"] },
+    pe:{ ambitos:["social","cognitivo"], clave:"Desarrollo social y emocional + desarrollo cognitivo" } }
+];
+
+/* ---------------------------------------------------------------------
+   2. ENUNCIADOS
+   Texto extraído automáticamente del documento original de cada supuesto
+   (sin encabezados ni pies de página). Nunca redactado ni completado por IA.
+   Las viñetas del original se marcan con «- ». Un supuesto sin enunciado
+   queda excluido automáticamente hasta que se cargue su documento.
+   --------------------------------------------------------------------- */
+const ENUNCIADOS = {
+  "2025-1": "Como maestro/a especialista de Pedagogía Terapéutica desempeña sus funciones en un Aula Específica de Educación Especial, en un centro ordinario de Educación Infantil y Primaria de tres líneas. El centro cuenta con todos los recursos personales y materiales para atender las necesidades que presenta el alumnado.\n\nConocido el contexto, debe dar respuesta educativa a una de sus alumnas, cuyo dictamen de escolarización determina necesidades educativas especiales derivadas de un Trastorno del Espectro Autista: Autismo.\n\nDestacamos la siguiente información:\n\n- Actualmente presenta dificultad para seguir órdenes sencillas y responder a preguntas simples.\n\n- Muestra cierto grado de inflexibilidad y rigidez cognitiva, lo cual genera en la alumna enfados.\n\n- Tiene una rutina diaria muy estructurada.\n\n- Es importante tener en cuenta que los periodos de espera pueden resultar especialmente estresantes para ella.\n\n- Muestra una buena capacidad de atención y colaboración en las tareas.\n\n- Presenta un desfase en su desarrollo psicomotor, ya que manifiesta dificultades para coordinar los movimientos de sus extremidades, como por ejemplo bajar escaleras alternando los pies, saltar con los pies juntos…\n\n- Presenta una buena prensión con la pinza, lo cual le permite coger objetos de pequeño tamaño y hacer uso de útiles de escritura.\n\n- Actualmente muestra aleteos y, en ocasiones, se desplaza caminando sobre las puntas de sus pies.\n\n- Presenta intención comunicativa, ya que agarra al adulto de la mano para indicarle su deseo o necesidad.\n\n- Tiene dificultades en la interacción con sus iguales y participación en las actividades en el recreo.\n\nPlantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2025-2": "En su centro de destino está escolarizada, en grupo ordinario con apoyos en periodos variables, una alumna que presenta dificultades específicas en el aprendizaje de la lectura o dislexia.\n\nPresenta dificultades de comprensión generalizadas. Su lectura es dubitativa y comete errores de omisión, sustitución e inversión. Esto afecta a la comprensión lectora. En relación a la expresión oral y escrita, los errores también aparecen en la sintaxis.\n\nTiende a no finalizar las tareas propuestas o entregarlas rápidamente sin una buena ejecución. Cuando focaliza su atención es capaz de realizar sus actividades con éxito. No suele manifestar abiertamente sus dudas o dificultades en clase, con el objetivo de evitar que sus compañeros lo perciban. Esto hace necesaria la observación por parte de los docentes para identificar sus necesidades.\n\nPlantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículum vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permite al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2025-3": "Centro de Educación Infantil y Primaria situado en una zona ERACIS (Estrategia Regional Andaluza para la Cohesión e Inclusión social). En él se encuentra escolarizado un alumno que presenta necesidades educativas especiales derivadas de una discapacidad intelectual leve (coeficiente intelectual: 65). El centro cuenta con todos los recursos personales y materiales adecuados para atender sus necesidades.\n\nEstá escolarizado en grupo ordinario con apoyos en periodos variables. Presenta necesidades en el área social y afectiva y precisa atención a nivel curricular, ya que tiene un desfase superior a dos cursos.\n\nEntre sus habilidades destacan más las destrezas manipulativas que las verbales.\n\nMuestra indiferencia hacia las tareas escolares. Tiene la atención bastante dispersa y tiende a abordar su trabajo de forma desordenada y lo abandona ante cualquier dificultad que se le presente. Le resulta difícil seguir la dinámica de clase.\n\nEs un alumno introvertido, por lo que suele aislarse en las diferentes situaciones del aula. Presenta dificultades para relacionarse con sus iguales. No expresa abiertamente sus deseos y emociones y se bloquea con facilidad ante situaciones que no controla.\n\nPlantee para este alumno una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2022-1": "Alumna que presenta Trastorno por Déficit de Atención con Hiperactividad. TDAH: Tipo Combinado, lo que le conlleva a una actividad motriz excesiva con tendencia a actuar por impulsos, suele ser molesta y provoca disrupción en el aula (correr, gritar, salir y entrar, …), es incapaz de controlar de forma voluntaria la atención.\n\nSu motivación es dibujar y ser valorada por sus compañeros/as y profesorado.\n\nEs la menor de dos hermanos, familia implicada y colaboradora, en casa también presenta conductas disruptivas mostrándose siempre inquieta.\n\nSe encuentra escolarizada en modalidad de Grupo Ordinario con Apoyos en Periodos Variables en un Centro de Educación infantil y Primaria, que cuenta con los recursos necesarios para dar una respuesta educativa adecuada. Como maestro/a especialista en Pedagogía Terapéutica del centro educativo.\n\nPlantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2022-2": "Comienza el curso como maestro/a especialista en Pedagogía Terapéutica en un Centro de Educación infantil y Primaria de una línea situado en un contexto urbano.\n\nEl centro dispone de los recursos personales y materiales adecuados para atender a las necesidades del alumnado que escolariza.\n\nEntre el alumnado se encuentra una alumna con Trastornos de la Comunicación. Trastorno Especifico del Lenguaje Mixto, que recibe intervención por parte de la especialista en Audición y Lenguaje y precisa de su atención como maestro/a especialista en Pedagogía Terapéutica, en el proceso de enseñanza aprendizaje.\n\nDe la Evaluación Psicopedagógica destacamos:\n\nDesarrollo cognitivo. Su desarrollo cognitivo se sitúa en un nivel inferior respecto a su edad.\n\nDesarrollo comunicativo lingüístico.\n\n- Dificultad en la comprensión y expresión oral que le provoca escasa capacidad para adaptarse a las distintas situaciones de intercambio social.\n\n- En expresión y comprensión escrita presenta grandes dificultades.\n\nDesarrollo psicomotor. Es funcional, aunque presenta torpeza y pobre coordinación motora, así como dificultades en la lateralidad y el equilibrio.\n\nEn cuanto al Desarrollo social-emocional. No es autónoma para trabajar, depende del adulto o de un compañero/a. Pide ayuda con frecuencia. Mantiene un ritmo de trabajo lento. Tiene dificultades en las interacciones sociales con sus compañeros/as debido a la literalidad con la que entiende y usa el lenguaje y la escasa capacidad que posee para adaptarlo. Responde bien al refuerzo positivo.\n\nPlantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2022-3": "Centro de Educación infantil y Primaria de dos líneas y un Aula Específica de Educación Especial en Centro Ordinario, de la cual es usted tutor/a. Cuenta con los recursos suficientes establecidas por la normativa actual.\n\nEn este contexto, como maestro/a especialista de Pedagogía Terapéutica debe dar respuesta educativa al alumno en cuyo dictamen de escolarización se determinan necesidades educativas especiales derivadas de Trastornos del Espectro Autista. Autismo:\n\n- Marcada dificultad en la comunicación no verbal para usar y comprender gestos, expresiones faciales …\n\n- Escaso contacto visual.\n\n- Poco interés en el otro. Dificultades para comprender lo que los demás piensan o dicen (Falta de empatía o compartir emociones).\n\n- Estereotipias, sobre todo aleteos y pequeños gritos.\n\n- Comportamientos como llanto inconsolable o rabietas en situaciones inapropiadas.\n\n- Pérdida de control frecuente ante situaciones de frustración o exceso de estimulación. Provocando agresiones sobre sí mismo u objetos.\n\n- Juego solitario, ni en paralelo, ni simbólico.\n\nPlantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2019-1": "Centro de Educación infantil y Primaria de una línea en el que está destinado como maestro/a de Pedagogía Terapéutica.\n\nEn dicho centro se encuentra escolarizado un alumno que presenta Trastorno por Déficit de Atención con Hiperactividad: TDAH tipo combinado.\n\nEl alumno tiene reconocido el 36% de minusvalía. En su Dictamen de Escolarización se propone modalidad de escolarización en Grupo Ordinario con Apoyos en Períodos Variables.\n\nPresenta patrones conductuales que interfieren negativamente en su rendimiento académico, suele interrumpir la clase con comentarios extemporáneos verbalizando en voz alta la tarea que se dispone a realizar o con gritos incontrolados cuando se le presenta alguna situación novedosa.\n\nMuestra mayor interés por las tareas que implican el uso de recursos digitales. Es bien aceptado por su grupo de iguales.\n\nPlantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2019-2": "Trabaja usted en un Centro de Educación Infantil y Primaria de dos líneas en el Aula de Educación Especial en Centro Ordinario. El centro cuenta con los recursos necesarios para dar respuesta al alumnado.\n\nEn este aula están escolarizados 3 alumnos con diversas Necesidades Educativas Especiales.\n\nEn el mes de febrero la jefa de estudios le informa de la incorporación, por traslado domicilio, de una nueva alumna procedente de otro centro de la localidad: alumna con Necesidades Educativas Especiales: Discapacidad Intelectual Moderada (CI 35).\n\nPlantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2019-3": "Desempeña su labor profesional como maestro/a de Pedagogía Terapéutica (PT) en un entorno urbano. El nivel socioeconómico de las familias es medio-alto, así como el grado de implicación de las mismas en el proceso educativo de sus hijos/as.\n\nEl centro cuenta con los recursos necesarios para garantizar la inclusión del alumnado.\n\nEn el dictamen de Escolarización del alumno se determina que presenta Necesidades Educativas Especiales. Discapacidad Visual: baja visión de carácter congénito. Modalidad de Escolarización Grupo Ordinario con Apoyos en Períodos Variables.\n\nDesde un punto de vista funcional tiene problemas para el desempeño de tareas como la lectoescritura. La pobre percepción de estímulos le ocasiona fatiga y falta de atención, además de dificultades para imitar conductas, gestos, juegos… Se utiliza, entre otros recursos, el Braille como ayuda para el desarrollo de su aprendizaje.\n\nEs bien aceptado por el grupo en el que está escolarizado desde su ingreso en este centro siendo los compañeros muy receptivos a seguir las indicaciones y pautas que se les proponen para facilitar la inclusión de este alumno de forma segura en el aula y en el centro.\n\nEl alumno empieza a tomar conciencia de sus limitaciones con respecto a sus iguales, lo que motiva conductas de aislamiento y hostilidad, además de baja autoestima.\n\nPlantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2017-1": "Comienza su trabajo en el mes de septiembre en un CEIP de 6 unidades de Educación Infantil y 18 de Educación Primaria situado en un contexto rural. Es el único centro de la localidad.\n\nExisten dos plazas de Pedagogía Terapéutica, una ocupada por un docente definitivo que es el titular del aula de apoyo. La plaza que le es asignada es la de un aula específica que empezó a funcionar el curso pasado y a la que asisten dos alumnas.\n\nEl caso más complejo es el de la alumna M.G. que, según dictamen de escolarización, presenta un Trastorno Grave del Desarrollo como consecuencia de una lesión de origen cerebral. Su mayor afectación se encuentra a nivel cognitivo con un nivel madurativo entre 12-24 meses, según ámbitos. No tiene juego simbólico. Explora su entorno visualmente y es capaz de seguir un estímulo visual y auditivo.\n\nSus capacidades comunicativas son muy limitadas ya que prácticamente no existe lenguaje oral y gestual. Emite sonidos vocálicos. Expresa alegría o enfado en la interacción social. Es capaz de deambular sin apoyos, pero con una marcha inestable, hipotonía y con carencias en la función evitativa. No es autónoma en los desplazamientos en lo referente a la dirección de la marcha ni en la decisión sobre itinerarios. Tampoco es autónoma en la alimentación ni, en definitiva, en ningún aspecto de la vida cotidiana. Presenta un reconocimiento del 65% de discapacidad según el Centro de Valoración y Orientación.\n\nAunque el dictamen de escolarización refleja que dicha alumna es de modalidad de Centro Específico, existe negativa de la familia a la escolarización en el centro específico asignado y la alumna asiste diariamente al aula específica de la cual será usted tutor/a.\n\nAmbos padres trabajan, la alumna asiste al aula matinal antes de la hora de entrada en el colegio y hace uso del comedor por lo que deberá pensar en un sistema ágil de comunicación diaria con la familia. Los padres se muestran muy preocupados por la integración escolar de su hija y por la atención que recibe en el centro. Están satisfechos, colaboran en aquello que se les pide y asiste a reuniones y entrevistas cuando se les solicita.\n\nEl especialista en limitación funcional de la movilidad del EOE especializado le ofrece ayudas técnicas que aún no han sido determinadas por necesitar su opinión. La coordinación con el otro docente de PT es prácticamente inexistente y usted es nombrado/a coordinador/a del Equipo de Orientación. Existe una monitora de educación especial y una maestra especialista en Audición y Lenguaje, ambas atienden también a la alumna.\n\nCUESTIÓN DEL SUPUESTO PRÁCTICO Nº 1\n\nCon todo lo expresado plantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2017-2": "Comenzó su trabajo como maestro/a de Pedagogía Terapéutica en un centro rural con 6 unidades de Educación Infantil y 12 unidades de Educación Primaria. El centro se encuentra en un contexto social desfavorecido donde gran parte de las familias se dedican a empleos agrícolas de temporalidad.\n\nEl jefe de estudios le informó a principios de curso que una de las grandes preocupaciones de todos los profesionales que trabajan en el centro es la atención al alumno C.O. Este alumno, según su dictamen de escolarización, presenta un Trastorno Grave de Conducta (trastorno negativista desafiante). Tiene un comportamiento inadaptado, muestra patrones repetitivos en los que prevalece las agresiones a las personas y a las cosas y pequeños hurtos. No acata las normas y en muchas ocasiones se muestra desafiante y hostil hacia los adultos. En lo que va de curso ha sido expulsado del centro en tres ocasiones. Con estas conductas es un niño poco aceptado por sus iguales, poco sociable ya que no suele interaccionar con su grupo y no muestra empatía. Su nivel de competencia curricular se podría situar en torno a un curso por debajo del que le corresponde por edad, lee y escribe con normalidad y, a pesar de parecer que no atiende en clase, comprende lo que se explica a todo el grupo. Le atrae las tareas o actividades manipulativas (puzles, construcciones...) y de fantasía.\n\nAsiste al aula de apoyo desde el inicio de su escolaridad y en el presente curso sale de su grupo ordinario al aula de apoyo en 5 sesiones. Existe una logopeda compartida con otro centro y una monitora de educación especial, ninguna de ellas atiende al alumno.\n\nSus padres se muestran preocupados y mantienen entrevistas continuas con directora y tutora. Afirman que las expulsiones solo sirven para empeorar las conductas de C.O. ya que las toma como unas vacaciones y cuando regresa al centro vuelve a presentar las mismas conductas no deseables. Solicitan pautas para actuar con su hijo ya que en su domicilio también existen conductas desafiantes.\n\nLa tutora también solicita su ayuda, orientación y el establecimiento de mecanismos de coordinación entre ella y usted. Le informa que se está planteando una posible repetición del alumno y desea saber su opinión.\n\nCUESTIÓN DEL SUPUESTO PRÁCTICO Nº 2\n\nCon todo lo expresado plantee una intervención razonada y fundamentada dentro del marco teórico y en relación con el currículo vigente de la especialidad de la Comunidad Autónoma de Andalucía, así como una propuesta didáctica y organizativa, que permita al tribunal comprobar su formación científica y el dominio de las estrategias docentes como maestro/a de Pedagogía Terapéutica.",
+  "2015-1": "En un centro de Educación Infantil y Primaria de 1 línea, con aula de integración, está escolarizado un alumno en la modalidad de Aula ordinaria con apoyos en periodos variables. Además de estar considerado en situación de desventaja sociocultural, presenta las siguientes características, según Dictamen emitido por el EOE de zona:\n\n- Necesidades educativas especiales asociadas a una discapacidad intelectual leve.\n\n- Dificultades de comprensión y expresión verbal.\n\n- Desfase en su nivel de competencia curricular de más de dos cursos.\n\n- Dificultades de pensamiento abstracto y asociativo.\n\n- Aunque está adquiriendo la lecto-escritura, lo hace con mucha lentitud y con continuos retrocesos, solo es capaz de reconocer, leer y escribir sílabas directas, aunque no es capaz de leer palabras completas.\n\n- Presenta asimismo una mala grafomotricidad.\n\n- En cuanto a sus capacidades comunicativas, es capaz de expresar sus necesidades e intereses, aunque con múltiples dislalias, pobreza de vocabulario y estructuras sintácticas simples. A nivel social, el alumno mantiene una buena relación con sus compañeros y compañeras tanto dentro del aula como en el patio de recreo, aunque se muestra reacio a trabajar en grupo, incluso a la hora de realizar tareas que suele ejecutar con éxito.\n\n- Reclama continuamente la atención de su maestra mientras está realizando cualquier tarea, aun las que no le suponen ninguna dificultad.",
+  "2015-2": "En un centro de Educación Infantil y Primaria de 1 línea, con Aula de apoyo a la Integración, está escolarizada una alumna que presenta un Trastorno Generalizado del Desarrollo sin especificar, acreditado en su día por la Unidad de Salud Mental de su Hospital de referencia. Está en el Colegio desde los 3 años, y su evolución a lo largo de este tiempo ha sido bastante positiva. Los datos más relevantes de su evaluación Psicopedagógica son los siguientes:\n\n- Manifiesta inmadurez en su desarrollo motor, con falta de coordinación a la hora de correr, recoger una pelota con ambas manos o mantener el equilibrio.\n\n- Controla esfínteres y tiene autonomía para asearse y vestirse, aunque con supervisión de un adulto.\n\n- A nivel social, se suele relacionar bien con sus compañeros/as, aunque tiene muy poca tolerancia a la frustración, emitiendo respuestas de poco control emocional, como tirarse al suelo o chillar, cuando se le lleva la contraria. No suele mirar a la cara a la persona que tiene enfrente, aunque lo hace si se le insiste. Habitualmente se comunica mediante holofrases, siendo raras las construcciones sintácticas de sujeto, verbo y predicado. Presenta múltiples dislalias.\n\n- Es capaz de seguir instrucciones verbales secuenciadas de dos acciones. Está adquiriendo la lectoescritura, aunque con muchas dificultades y lentitud, y con continuas regresiones. Reconoce las vocales y varias consonantes, lee algunas sílabas y es capaz de copiarlas, aunque tiene mala grafía.\n\n- En circunstancias normales realiza las tareas que se le asignan, aunque prefiere trabajar sola.\n\n- Le suelen gustar las tareas de clase y le motiva mucho el que su maestra la felicite.\n\n- Reconoce y escribe los números hasta 20, pero tiene dificultades para asociar número/cantidad.",
+  "2013-1": "En un Colegio de Educación Infantil y Primaria de 1 línea con Aula de Integración acaba de matricularse Amina. Su nacionalidad es española, aunque sus padres son de Marruecos. El Equipo de Orientación Educativa de la zona, en su Dictamen de Escolarización, le ha diagnosticado Retraso Mental Grave por Síndrome de Down.\n\nLa alumna no ha estado escolarizada con anterioridad y tampoco ha asistido a ninguna guardería.\n\nAmina presenta un desfase significativo en todas las áreas:\n\nTiene grandes carencias en la percepción auditiva, aunque su discriminación visual es buena.\n\nEn cuanto a las áreas motrices, sus movimientos gruesos son lentos y descoordinados; su motricidad fina es muy deficitaria y su grafomotricidad es nula.\n\nCon respecto al lenguaje, se observa un grave déficit tanto en la comprensión como en la expresión. Su lenguaje espontáneo se limita a palabras-frase. Presenta múltiples dislalias.\n\nA nivel de autonomía personal, Amina controla esfínteres, pero tiene dificultades para desenvolverse de manera independiente por el Centro.\n\nA nivel curricular, no tiene adquirido el concepto de cantidad. No discrimina número ni letras. Reconoce tan solo algunos colores. Sí señala e identifica las partes principales de su cuerpo y de su cara.",
+  "2013-2": "En un Colegio de Educación Infantil y Primaria de 2 líneas que cuenta con un Aula de Integración se encuentra matriculado Fernando. En el Dictamen de Escolarización, emitido por el Equipo de Orientación Educativa de la zona, se le ha diagnosticado Trastorno Generalizado no especificado.\n\nEl alumno tiene dificultades para mantener la atención, por lo que precisa supervisión constante en las tareas.\n\nSu percepción visual es buena, pero tiene carencias en la percepción espacio-temporal.\n\nEn lo referente a las áreas motrices, su coordinación dinámica general es aceptable. En cambio, presenta dificultades en la motricidad fina, especialmente en la grafomotricidad.\n\nMuestra un retraso significativo en el Área de Lenguaje, tanto en el ámbito expresivo como comprensivo. Contacta ocularmente cuando se le habla, pero se observan carencias al realizar intercambios comunicativos funcionales con iguales o con adultos.\n\nA nivel social, tiende a aislarse y a no participar de las tareas en grupo. Se relaciona bien con sus maestros/as y es aceptado por sus compañeros/as. En ocasiones presenta conductas disruptivas, especialmente ante la negación de deseos o frente a novedades en las rutinas diarias.\n\nA nivel curricular, reconoce los colores básicos y los números del 0 al 9, asociando las grafías a las cantidades. En lectoescritura, discrimina las vocales y está comenzando a trabajar las consonantes."
+};
+
+/* ---------------------------------------------------------------------
+   3. PISTAS DEL FEEDBACK
+   Se redactan a partir del enunciado original y de la solución validada.
+   Campos por supuesto: modalidad, medidas, referente, pe, detectar;
+   faltan (medida no marcada) y sobran (opción marcada de más).
+   --------------------------------------------------------------------- */
+const PISTAS = {
+  "2025-1": {
+    modalidad:"Desempeña sus funciones en un Aula Específica de Educación Especial dentro de un centro ordinario, y la alumna tiene dictamen de escolarización por NEE: modalidad C.",
+    medidas:"El alumnado escolarizado en aula específica en centro ordinario (modalidad C) tiene como medida la Adaptación Curricular Individualizada.",
+    referente:"Además de las dificultades descritas, muestra buena capacidad de atención y colaboración en las tareas y una prensión con pinza que le permite hacer uso de útiles de escritura.",
+    detectar:"El Aula Específica de Educación Especial en centro ordinario sitúa el caso en modalidad C, con ACI como medida. Para el referente, la solución validada es el segundo ciclo de Educación Infantil."
+  },
+  "2025-2": {
+    modalidad:"La alumna presenta dificultades específicas en el aprendizaje de la lectura o dislexia, que no dan lugar a dictamen de escolarización. Aunque el enunciado hable de grupo ordinario con apoyos en periodos variables, no tiene modalidad asociada a dictamen.",
+    sobran:{ B:"", acs_lengua:"", acs_mat:"" },
+    medidas:"Al no presentar NEE no procede ACS: sus dificultades de lectura, comprensión y expresión se abordan mediante un Programa Específico.",
+    pe:"Lectura dubitativa con errores de omisión, sustitución e inversión que afectan a la comprensión, y errores de sintaxis en la expresión oral y escrita.",
+    detectar:"La dislexia es una dificultad de aprendizaje, no una NEE: no hay dictamen ni modalidad, aunque el enunciado mencione grupo ordinario con apoyos. La respuesta es un Programa Específico centrado en el desarrollo comunicativo y lingüístico, sin referente curricular."
+  },
+  "2025-3": {
+    modalidad:"Presenta NEE por discapacidad intelectual leve y está escolarizado en grupo ordinario con apoyos en periodos variables: modalidad B.",
+    medidas:"Precisa atención a nivel curricular por un desfase superior a dos cursos y, además, presenta necesidades en el área social y afectiva, atención dispersa y trabajo desordenado.",
+    faltan:{
+      acs_lengua:"El desfase superior a dos cursos justifica una ACS en Lengua Castellana y Literatura.",
+      acs_mat:"El desfase superior a dos cursos justifica también una ACS en Matemáticas.",
+      pe:"Las necesidades en el área social y afectiva, la atención dispersa y el abandono ante las dificultades no se abordan con la ACS: requieren un Programa Específico."
+    },
+    referente:"Con un desfase superior a dos cursos, la solución validada sitúa el referente de las ACS en 1.º de Educación Primaria.",
+    pe:"Necesidades en el área social y afectiva, aislamiento y dificultad para relacionarse y expresar emociones; atención dispersa, trabajo desordenado y abandono ante cualquier dificultad.",
+    detectar:"Grupo ordinario con apoyos en periodos variables y NEE por discapacidad intelectual leve: modalidad B. El desfase superior a dos cursos justifica ACS en Lengua y Matemáticas con referente en 1.º de Primaria, y las dificultades sociales, emocionales y de organización de la tarea, un Programa Específico."
+  },
+  "2022-1": {
+    modalidad:"El enunciado indica que está escolarizada en modalidad de Grupo Ordinario con Apoyos en Periodos Variables: modalidad B.",
+    medidas:"El enunciado no aporta desfase curricular: sus necesidades derivan de la atención, la impulsividad y la actividad motriz excesiva, y se abordan con un Programa Específico.",
+    pe:"Es incapaz de controlar de forma voluntaria la atención y tiende a actuar por impulsos: atención y autocontrol son funciones ejecutivas.",
+    detectar:"La modalidad aparece expresamente: grupo ordinario con apoyos en periodos variables. Sin datos de desfase curricular, la medida es un Programa Específico centrado en las funciones ejecutivas: control voluntario de la atención e impulsividad."
+  },
+  "2022-2": {
+    modalidad:"Alumna con Trastornos de la Comunicación (TEL mixto) en un centro ordinario, que recibe intervención de la especialista en Audición y Lenguaje y precisa la atención del maestro/a de Pedagogía Terapéutica: grupo ordinario con apoyos en periodos variables.",
+    medidas:"La evaluación psicopedagógica describe necesidades comunicativas, motrices y sociales, pero no aporta un nivel de competencia curricular ni un desfase que justifique ACS: la medida es un Programa Específico.",
+    pe:"La evaluación psicopedagógica destaca dificultades de comprensión y expresión oral y escrita, torpeza y pobre coordinación motora con dificultades de lateralidad y equilibrio, y dificultades en las interacciones sociales con sus compañeros.",
+    detectar:"Trastorno de la comunicación en centro ordinario con atención de AL y PT: modalidad B. Sin desfase curricular concretado, la respuesta es un Programa Específico que atiende los ámbitos comunicativo-lingüístico, motor / psicomotor y social-emocional."
+  },
+  "2022-3": {
+    modalidad:"Es tutor/a de un Aula Específica de Educación Especial en Centro Ordinario y el alumno tiene dictamen de escolarización por TEA: modalidad C.",
+    medidas:"En el aula específica en centro ordinario (modalidad C) la medida es la Adaptación Curricular Individualizada.",
+    referente:"Juego solitario, ni en paralelo ni simbólico, marcada dificultad en la comunicación no verbal y escaso contacto visual.",
+    detectar:"El aula específica en centro ordinario determina la modalidad C y la ACI. Se admiten los dos ciclos de Infantil como referente, aunque se recomienda el primero."
+  },
+  "2019-1": {
+    modalidad:"En su Dictamen de Escolarización se propone expresamente Grupo Ordinario con Apoyos en Períodos Variables: modalidad B.",
+    medidas:"El enunciado describe patrones conductuales que interfieren en el rendimiento académico, pero no un desfase curricular: la medida es un Programa Específico.",
+    pe:"Interrumpe la clase con comentarios extemporáneos, verbaliza en voz alta la tarea y grita ante situaciones novedosas: autocontrol y regulación de la conducta.",
+    detectar:"El dictamen fija expresamente la modalidad B. Sin desfase curricular descrito, la respuesta es un Programa Específico centrado en las funciones ejecutivas para el control de la impulsividad y de la conducta en el aula."
+  },
+  "2019-2": {
+    modalidad:"Trabaja en el Aula de Educación Especial en Centro Ordinario, a la que se incorpora la alumna con NEE: modalidad C.",
+    medidas:"En el aula específica en centro ordinario (modalidad C) la medida es la Adaptación Curricular Individualizada.",
+    referente:"El enunciado solo indica discapacidad intelectual moderada (CI 35), sin más información curricular: se admiten ambos ciclos de Infantil y, ante esa ausencia de información, se recomienda el primero.",
+    detectar:"La alumna se incorpora al aula de educación especial en centro ordinario: modalidad C y ACI. El enunciado solo aporta el diagnóstico, así que se admiten ambos ciclos de Infantil y se recomienda el primero."
+  },
+  "2019-3": {
+    modalidad:"El dictamen de escolarización determina NEE por discapacidad visual y Modalidad de Escolarización Grupo Ordinario con Apoyos en Períodos Variables: modalidad B.",
+    medidas:"Tiene problemas para el desempeño de tareas como la lectoescritura y utiliza el Braille; además presenta fatiga, falta de atención, aislamiento y baja autoestima.",
+    faltan:{
+      acs_lengua:"Los problemas para el desempeño de la lectoescritura justifican, en la solución validada, una ACS en Lengua Castellana y Literatura.",
+      pe:"La fatiga y falta de atención, el desenvolvimiento seguro en el aula y en el centro, y las conductas de aislamiento y baja autoestima requieren un Programa Específico."
+    },
+    sobran:{
+      acs_mat:"El enunciado centra las dificultades curriculares en la lectoescritura; no aporta datos que justifiquen una ACS en Matemáticas."
+    },
+    referente:"La solución validada sitúa el referente de la ACS de Lengua, centrada en la lectoescritura, en 1.º de Educación Primaria.",
+    pe:"La pobre percepción de estímulos le ocasiona fatiga y falta de atención; necesita desenvolverse de forma segura en el aula y en el centro; y empieza a mostrar aislamiento, hostilidad y baja autoestima.",
+    detectar:"El dictamen fija la modalidad B. Las dificultades en lectoescritura justifican la ACS de Lengua con referente en 1.º de Primaria, y la fatiga atencional, la autonomía en el centro y la baja autoestima se abordan en un Programa Específico."
+  },
+  "2017-1": {
+    modalidad:"Aunque el dictamen refleja modalidad de Centro Específico, la familia rechaza esa escolarización y la alumna asiste diariamente al aula específica del centro ordinario, de la que usted será tutor/a: modalidad C.",
+    sobran:{
+      D:"El dictamen propone Centro Específico, pero la alumna está escolarizada de hecho en el aula específica del centro ordinario."
+    },
+    medidas:"La alumna asiste al aula específica en centro ordinario (modalidad C): la medida es la Adaptación Curricular Individualizada.",
+    referente:"Presenta un nivel madurativo entre 12-24 meses, sin juego simbólico y prácticamente sin lenguaje oral ni gestual.",
+    detectar:"El dictamen propone centro específico, pero la alumna asiste diariamente al aula específica del centro ordinario: modalidad C, con ACI. Su nivel madurativo entre 12 y 24 meses sitúa el referente en el primer ciclo de Educación Infantil."
+  },
+  "2017-2": {
+    modalidad:"Tiene dictamen de escolarización por Trastorno Grave de Conducta y sale de su grupo ordinario al aula de apoyo en 5 sesiones: grupo ordinario con apoyos en periodos variables.",
+    medidas:"Su competencia curricular está en torno a un curso por debajo, lee y escribe con normalidad y comprende las explicaciones: no hay desfase que justifique ACS. Sus necesidades son conductuales y sociales.",
+    sobran:{
+      acs_lengua:"El desfase es de en torno a un curso: no alcanza los dos cursos que requiere una ACS.",
+      acs_mat:"El desfase es de en torno a un curso: no alcanza los dos cursos que requiere una ACS."
+    },
+    pe:"Agresiones a personas y cosas, conducta desafiante y hostil, poca aceptación por sus iguales, escasa interacción con el grupo y falta de empatía.",
+    detectar:"Alumno con dictamen por Trastorno Grave de Conducta que sale de su grupo ordinario al aula de apoyo: modalidad B. Con un desfase de en torno a un curso no procede ACS, así que la respuesta es un Programa Específico de desarrollo social y emocional."
+  },
+  "2015-1": {
+    modalidad:"Está escolarizado en la modalidad de Aula ordinaria con apoyos en periodos variables, con dictamen por NEE asociadas a discapacidad intelectual leve: modalidad B.",
+    medidas:"Desfase de más de dos cursos con dificultades centradas en la lectoescritura, y dificultades de pensamiento abstracto y asociativo.",
+    faltan:{
+      acs_lengua:"Con un desfase de más de dos cursos, solo reconoce, lee y escribe sílabas directas y no lee palabras completas: ACS en Lengua.",
+      pe:"Las dificultades de pensamiento abstracto y asociativo no se abordan con la ACS: requieren un Programa Específico."
+    },
+    sobran:{
+      acs_mat:"Las dificultades curriculares que describe el enunciado se centran en la lectoescritura y el lenguaje; no se aportan datos de Matemáticas."
+    },
+    referente:"Está adquiriendo la lectoescritura: reconoce, lee y escribe sílabas directas, pero no es capaz de leer palabras completas.",
+    pe:"Presenta dificultades de pensamiento abstracto y asociativo. Además, sus dificultades de comprensión y expresión verbal, las múltiples dislalias, la pobreza de vocabulario y las estructuras sintácticas simples permiten plantear también el desarrollo comunicativo y lingüístico.",
+    detectar:"Modalidad B expresa y desfase de más de dos cursos centrado en la lectoescritura: ACS en Lengua con referente en 1.º de Primaria. Las dificultades de pensamiento abstracto y asociativo orientan el Programa Específico hacia el desarrollo cognitivo, y las dislalias y la pobreza de vocabulario permiten incluir también el comunicativo y lingüístico."
+  },
+  "2015-2": {
+    modalidad:"Alumna con Trastorno Generalizado del Desarrollo escolarizada desde los 3 años en un centro ordinario con Aula de apoyo a la Integración: grupo ordinario con apoyos en periodos variables.",
+    medidas:"Está adquiriendo la lectoescritura y tiene dificultades para asociar número y cantidad; además presenta inmadurez motora y muy poca tolerancia a la frustración.",
+    faltan:{
+      acs_lengua:"Reconoce las vocales y varias consonantes y lee algunas sílabas, con muchas dificultades y continuas regresiones: ACS en Lengua.",
+      acs_mat:"Reconoce y escribe los números hasta 20, pero tiene dificultades para asociar número y cantidad: ACS en Matemáticas.",
+      pe:"La falta de coordinación motora y la escasa tolerancia a la frustración no se abordan con las ACS: requieren un Programa Específico."
+    },
+    referente:"Está adquiriendo la lectoescritura (vocales, varias consonantes y algunas sílabas) y reconoce y escribe los números hasta 20.",
+    pe:"Falta de coordinación al correr, recoger una pelota con ambas manos o mantener el equilibrio, y muy poca tolerancia a la frustración, con respuestas de poco control emocional.",
+    detectar:"Centro ordinario con Aula de apoyo a la Integración: modalidad B. Los aprendizajes iniciales en lectoescritura y numeración justifican ACS en Lengua y Matemáticas con referente en 1.º de Primaria, y la inmadurez motora y el escaso control emocional, un Programa Específico."
+  },
+  "2013-1": {
+    modalidad:"Se matricula en un colegio ordinario con Aula de Integración, con Dictamen de Escolarización del Equipo de Orientación Educativa: grupo ordinario con apoyos en periodos variables.",
+    medidas:"Presenta un desfase significativo en todas las áreas, y además carencias perceptivas, motrices, de lenguaje y de autonomía personal.",
+    faltan:{
+      acs_lengua:"No discrimina letras y su lenguaje espontáneo se limita a palabras-frase: ACS en Lengua.",
+      acs_mat:"No tiene adquirido el concepto de cantidad ni discrimina números: ACS en Matemáticas.",
+      pe:"Las carencias en percepción auditiva, motricidad, lenguaje y autonomía en el centro no se cubren solo con las ACS: requieren un Programa Específico."
+    },
+    referente:"No tiene adquirido el concepto de cantidad, no discrimina números ni letras y reconoce solo algunos colores, aunque señala e identifica las partes principales de su cuerpo y de su cara.",
+    pe:"Grandes carencias en la percepción auditiva; movimientos lentos y descoordinados y motricidad fina muy deficitaria; dificultades para desenvolverse de manera independiente por el centro; grave déficit de comprensión y expresión.",
+    detectar:"Colegio ordinario con Aula de Integración: modalidad B. El desfase significativo en todas las áreas justifica ACS en Lengua y Matemáticas con referente en el segundo ciclo de Infantil, y las carencias perceptivas, motrices, comunicativas y de autonomía, un Programa Específico."
+  },
+  "2013-2": {
+    modalidad:"Matriculado en un colegio ordinario que cuenta con Aula de Integración, con dictamen de escolarización: grupo ordinario con apoyos en periodos variables.",
+    medidas:"Tiene aprendizajes curriculares iniciales en lectoescritura y numeración, y además dificultades de atención, tendencia a aislarse y conductas disruptivas.",
+    faltan:{
+      acs_lengua:"En lectoescritura discrimina las vocales y está comenzando a trabajar las consonantes: ACS en Lengua.",
+      acs_mat:"Reconoce los números del 0 al 9 asociando las grafías a las cantidades: ACS en Matemáticas.",
+      pe:"Las dificultades para mantener la atención, el aislamiento y las conductas disruptivas ante las novedades no se abordan con las ACS: requieren un Programa Específico."
+    },
+    referente:"Reconoce los colores básicos y los números del 0 al 9 asociándolos a cantidades, discrimina las vocales y está comenzando a trabajar las consonantes.",
+    pe:"Dificultades para mantener la atención con necesidad de supervisión constante; tendencia a aislarse, a no participar en grupo y conductas disruptivas ante la negación de deseos o las novedades en las rutinas.",
+    detectar:"Colegio ordinario con Aula de Integración: modalidad B. Sus aprendizajes iniciales en lectoescritura y numeración justifican ACS en Lengua y Matemáticas con referente en 1.º de Primaria, y la atención, el aislamiento y la conducta ante los cambios, un Programa Específico."
+  }
+};
+
+/* =====================================================================
+   OPCIONES
+   ===================================================================== */
+const OPC = {
+  modalidad:[
+    {id:"B", txt:"Modalidad B", clave:"B"},
+    {id:"C", txt:"Modalidad C", clave:"C"},
+    {id:"D", txt:"Modalidad D", clave:"D"},
+    {id:"ninguna", txt:"No presenta modalidad de escolarización asociada a dictamen", clave:"Sin modalidad asociada a dictamen"}
+  ],
+  medidas:[
+    {id:"acs_lengua", txt:"ACS en Lengua Castellana y Literatura", clave:"ACS Lengua", art:"la ACS de Lengua"},
+    {id:"acs_mat", txt:"ACS en Matemáticas", clave:"ACS Matemáticas", art:"la ACS de Matemáticas"},
+    {id:"pe", txt:"Programa Específico", clave:"Programa Específico", art:"el Programa Específico"},
+    {id:"aci", txt:"Adaptación Curricular Individualizada (ACI)", clave:"ACI", art:"la ACI"}
+  ],
+  referente:[
+    {id:"inf1", txt:"Primer ciclo de Educación Infantil"},
+    {id:"inf2", txt:"Segundo ciclo de Educación Infantil"},
+    {id:"p1", txt:"1.º de Educación Primaria"},
+    {id:"p2", txt:"2.º de Educación Primaria"},
+    {id:"p3", txt:"3.º de Educación Primaria"},
+    {id:"p4", txt:"4.º de Educación Primaria"},
+    {id:"p5", txt:"5.º de Educación Primaria"},
+    {id:"p6", txt:"6.º de Educación Primaria"}
+  ],
+  pe:[
+    {id:"cognitivo", txt:"Desarrollo cognitivo / funciones ejecutivas", clave:"Desarrollo cognitivo / funciones ejecutivas", art:"el desarrollo cognitivo / funciones ejecutivas"},
+    {id:"comunicativo", txt:"Desarrollo comunicativo y lingüístico", clave:"Desarrollo comunicativo y lingüístico", art:"el desarrollo comunicativo y lingüístico"},
+    {id:"psicomotor", txt:"Desarrollo motor / psicomotor", clave:"Desarrollo motor / psicomotor", art:"el desarrollo motor / psicomotor"},
+    {id:"social", txt:"Desarrollo social y emocional", clave:"Desarrollo social y emocional", art:"el desarrollo social y emocional"},
+    {id:"autonomia", txt:"Autonomía", clave:"Autonomía", art:"la autonomía"}
+  ]
+};
+
+/* =====================================================================
+   ESTADO
+   ===================================================================== */
+const TOTAL_BANCO = BANCO.length; // 15
+const idDe = s => `${s.anio}-${s.numero}`;
+const ACTIVOS = BANCO
+  .map(s => ({ ...s, id:idDe(s), enunciado:(ENUNCIADOS[idDe(s)] || "").trim(), pistas:PISTAS[idDe(s)] || {} }))
+  .filter(s => s.enunciado.length > 0);
+const TOTAL = ACTIVOS.length;
+const POR_ID = Object.fromEntries(ACTIVOS.map(s => [s.id, s]));
+const MQ_REDUCIR = window.matchMedia("(prefers-reduced-motion: reduce)");
+const reducir = () => MQ_REDUCIR.matches;
+
+const estado = { nivel:null, niveles:{} };
+function datosNivel(n){
+  if(!estado.niveles[n]) estado.niveles[n] = { orden:barajar(ACTIVOS.map(s=>s.id)), pos:0, resultados:{} };
+  return estado.niveles[n];
+}
+function barajar(arr, evitarPrimero){
+  const a = arr.slice();
+  for(let i=a.length-1;i>0;i--){ const j=Math.floor(Math.random()*(i+1)); [a[i],a[j]]=[a[j],a[i]]; }
+  if(evitarPrimero && a.length>1 && a[0]===evitarPrimero){ const k=1+Math.floor(Math.random()*(a.length-1)); [a[0],a[k]]=[a[k],a[0]]; }
+  return a;
+}
+
+/* =====================================================================
+   UTILIDADES
+   ===================================================================== */
+const $ = (sel, root=document) => root.querySelector(sel);
+const ESCAPES = {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"};
+const esc = t => String(t).replace(/[&<>"']/g, c => ESCAPES[c]);
+const opc = (lista, id) => lista.find(o => o.id === id);
+const media = arr => arr.length ? arr.reduce((a,b)=>a+b,0)/arr.length : null;
+const minusc = t => t.charAt(0).toLowerCase() + t.slice(1);
+const pct = v => v===null ? "—" : Math.round(v*100) + " %";
+const tieneReferente = s => (s.medidas.includes("acs_lengua") || s.medidas.includes("acs_mat") || s.medidas.includes("aci")) && s.referente;
+function enumerar(items){
+  if(items.length<=1) return items.join("");
+  return items.slice(0,-1).join(", ") + " y " + items[items.length-1];
+}
+const nombreRef = id => opc(OPC.referente, id).txt;
+
+/* =====================================================================
+   PREGUNTAS VISIBLES
+   ===================================================================== */
+function preguntas(s, nivel){
+  const q = [
+    { key:"modalidad", tipo:"unica", lista:OPC.modalidad, titulo:"¿Qué modalidad de escolarización corresponde al supuesto?" },
+    { key:"medidas", tipo:"multiple", lista:OPC.medidas, titulo:"¿Qué medida o medidas específicas plantearías?" }
+  ];
+  if(tieneReferente(s)) q.push({ key:"referente", tipo:"unica", lista:OPC.referente, titulo:"¿Qué referente curricular adoptarías?" });
+  if(nivel === "avanzado" && s.medidas.includes("pe") && s.pe && s.pe.ambitos.length){
+    q.push({ key:"pe", tipo:"multiple", lista:OPC.pe, titulo:"¿En qué ámbito o ámbitos centrarías principalmente el Programa Específico?" });
+  }
+  return q;
+}
+
+/* =====================================================================
+   CORRECCIÓN
+   ===================================================================== */
+const pistaHtml = t => t ? `<p class="pista"><b>Pista del enunciado:</b> ${esc(t)}</p>` : "";
+const DEF_MODALIDAD = {
+  B:"La modalidad B corresponde a grupo ordinario con apoyos en periodos variables.",
+  C:"La modalidad C corresponde a aula específica de educación especial en centro ordinario.",
+  D:"La modalidad D corresponde a centro específico de educación especial.",
+  ninguna:"Solo hay modalidad de escolarización cuando existe dictamen de escolarización por NEE."
+};
+function porQueNo(s, bloque, id){
+  if(s.pistas.sobran && id in s.pistas.sobran) return s.pistas.sobran[id];
+  if(bloque === "modalidad") return DEF_MODALIDAD[id] || "";
+  if(bloque === "medidas"){
+    if(id === "aci" && s.modalidad !== "C") return "La ACI es la medida propia del alumnado escolarizado en modalidades C y D.";
+    if((id === "acs_lengua" || id === "acs_mat") && s.modalidad === "C") return "En modalidad C la respuesta curricular se articula mediante la ACI, no mediante ACS.";
+    if((id === "acs_lengua" || id === "acs_mat") && s.modalidad === "ninguna") return "La ACS se dirige al alumnado con necesidades educativas especiales, y este supuesto no presenta NEE con dictamen.";
+  }
+  return "";
+}
+
+function evaluarModalidad(s, resp){
+  const ok = resp === s.modalidad, marcas = {};
+  const pista = s.pistas.modalidad;
+  if(ok){
+    marcas[resp] = ["ok","Tu respuesta"];
+    return { estado:"correcto", puntos:1, marcas, html: pista ? `<p>${esc(pista)}</p>` : "" };
+  }
+  marcas[resp] = ["mal","Tu respuesta"];
+  marcas[s.modalidad] = ["falta","Respuesta correcta"];
+  const extra = porQueNo(s, "modalidad", resp);
+  return { estado:"incorrecto", puntos:0, marcas,
+    html:`<p>La respuesta correcta era: <b>${esc(opc(OPC.modalidad, s.modalidad).txt)}</b>.</p>` + (extra ? `<p>${esc(extra)}</p>` : "") + pistaHtml(pista) };
+}
+
+function evaluarReferente(s, resp){
+  const { validas, preferente } = s.referente, pref = preferente || validas[0], marcas = {};
+  const pista = s.pistas.referente;
+  if(validas.includes(resp)){
+    marcas[resp] = ["ok","Tu respuesta"];
+    if(resp === pref){
+      const otras = validas.filter(v => v !== pref);
+      let html = pista ? `<p>${esc(pista)}</p>` : "";
+      if(otras.length) html += `<p>También se admite ${esc(enumerar(otras.map(id=>minusc(nombreRef(id)))))}.</p>`;
+      return { estado:"correcto", puntos:1, marcas, html };
+    }
+    marcas[pref] = ["falta","Recomendado"];
+    return { estado:"valida", puntos:1, marcas,
+      html:`<p>Tu elección es válida. No obstante, para la resolución de este supuesto recomendamos ${esc(minusc(nombreRef(pref)))}.</p>` + pistaHtml(pista) };
+  }
+  marcas[resp] = ["mal","Tu respuesta"];
+  validas.forEach(v => marcas[v] = ["falta", v === pref ? (validas.length > 1 ? "Recomendado" : "Respuesta correcta") : "También válido"]);
+  const otras = validas.filter(v => v !== pref);
+  const html = `<p>La respuesta correcta era: <b>${esc(nombreRef(pref))}</b>${otras.length ? ` (también se admite ${esc(enumerar(otras.map(id=>minusc(nombreRef(id)))))})` : ""}.</p>` + pistaHtml(pista);
+  return { estado:"incorrecto", puntos:0, marcas, html };
+}
+
+function evaluarConjunto(q, s, correctas, resp, bloque, admitidos = []){
+  const U = new Set(resp);
+  const validas = new Set([...correctas, ...admitidos]);
+  const aciertos = resp.filter(x => validas.has(x));
+  const faltan = correctas.filter(x => !U.has(x));
+  const sobran = resp.filter(x => !validas.has(x));
+  const admNoMarcados = admitidos.filter(x => !U.has(x));
+  const union = new Set([...correctas, ...resp]).size;
+  const puntos = union ? aciertos.length / union : 0;
+  const art = id => opc(q.lista, id).art;
+  const clave = id => opc(q.lista, id).clave;
+  const pista = s.pistas[bloque];
+  const marcas = {};
+  aciertos.forEach(id => marcas[id] = ["ok","Correcta"]);
+  sobran.forEach(id => marcas[id] = ["mal","Sobra"]);
+  faltan.forEach(id => marcas[id] = ["falta","Faltaba"]);
+  admNoMarcados.forEach(id => marcas[id] = ["falta","También válida"]);
+  const notaAdm = admitidos.length ? `También se admite ${enumerar(admitidos.map(art))}.` : "";
+  const detFaltan = bloque === "medidas" ? faltan.map(id => (s.pistas.faltan && s.pistas.faltan[id]) || "").filter(Boolean) : [];
+  const extras = sobran.map(id => porQueNo(s, bloque, id)).filter(Boolean).map(t=>`<p>${esc(t)}</p>`).join("");
+  const faltanHtml = detFaltan.map(t=>`<p>${esc(t)}</p>`).join("");
+
+  if(!faltan.length && !sobran.length){
+    const nota = admNoMarcados.length ? `<p>${esc(notaAdm)}</p>` : "";
+    return { estado:"correcto", puntos:1, marcas, html: nota + (pista ? `<p>${esc(pista)}</p>` : "") };
+  }
+  if(aciertos.length){
+    const falta = `${faltan.length>1?"faltan":"falta"} ${enumerar(faltan.map(art))}`;
+    const sobra = `${sobran.length>1?"sobran":"sobra"} ${enumerar(sobran.map(art))}`;
+    let frase = `Has identificado correctamente ${enumerar(aciertos.map(art))}, pero `;
+    frase += (faltan.length && sobran.length) ? `${falta}. Además, ${sobra}.` : (faltan.length ? falta : sobra) + ".";
+    return { estado:"parcial", puntos, marcas, html:`<p>${esc(frase)}</p>` + faltanHtml + extras + (detFaltan.length ? "" : pistaHtml(pista)) };
+  }
+  const lista = correctas.map(clave).map((t,i)=> (bloque === "pe" && i>0) ? minusc(t) : t).join(" + ");
+  return { estado:"incorrecto", puntos:0, marcas,
+    html:`<p>La respuesta correcta era: <b>${esc(lista)}</b>${admitidos.length ? ` (${esc(minusc(notaAdm).replace(/\.$/, ""))})` : ""}.</p>` + faltanHtml + extras + (detFaltan.length ? "" : pistaHtml(pista)) };
+}
+
+function evaluar(q, s, resp){
+  if(q.key === "modalidad") return evaluarModalidad(s, resp);
+  if(q.key === "referente") return evaluarReferente(s, resp);
+  if(q.key === "medidas") return evaluarConjunto(q, s, s.medidas, resp, "medidas");
+  return evaluarConjunto(q, s, s.pe.ambitos, resp, "pe", s.pe.admitidos || []);
+}
+
+const SIMBOLO = { correcto:["✓","Correcto"], valida:["✓","Respuesta válida"], parcial:["◐","Parcialmente correcto"], incorrecto:["✕","Incorrecto"] };
+
+/* =====================================================================
+   VISTAS
+   ===================================================================== */
+const app = $("#app");
+const anuncio = $("#anuncio");
+const irArriba = () => window.scrollTo({ top:0, behavior:"instant" });
+
+/* Temporizadores del feedback escalonado. Se cancelan al cambiar de vista
+   para que no escriban sobre un DOM que ya no existe. */
+let temporizadores = [];
+const programar = (fn, ms) => temporizadores.push(setTimeout(fn, ms));
+const cancelarTemporizadores = () => { temporizadores.forEach(clearTimeout); temporizadores = []; };
+
+/* Punto unico de render. */
+function pintar(html, aviso){
+  cancelarTemporizadores();
+  app.innerHTML = html;
+  colocarLogo();
+  irArriba();
+  const m = $("main", app);
+  if(m){ m.tabIndex = -1; m.focus({ preventScroll:true }); }
+  anuncio.textContent = aviso || "";
+}
+
+/* El logo se crea una sola vez y se reutiliza: el data URI no se vuelve a
+   parsear ni a decodificar en cada cambio de vista. */
+const LOGO = new Image(217, 300);
+LOGO.src = "data:image/webp;base64,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";
+LOGO.alt = "Los PTips de Miguel";
+LOGO.className = "logo";
+
+function cabecera(extra, logoClase, cabClase){
+  return `<header class="cab ${cabClase||""}">
+    <div class="cab-info">${extra}</div>
+    <span data-logo="${logoClase||""}"></span>
+  </header>`;
+}
+/* Coloca el nodo del logo en el hueco que deja la plantilla. */
+function colocarLogo(){
+  const hueco = $("[data-logo]", app); if(!hueco) return;
+  LOGO.className = "logo " + hueco.dataset.logo;
+  hueco.replaceWith(LOGO);
+}
+
+function vistaInicio(){
+  estado.nivel = null;
+  const sinBanco = TOTAL === 0;
+  const cont = n => {
+    const d = estado.niveles[n]; if(!d) return "";
+    const hechos = Object.keys(d.resultados).length;
+    if(hechos === 0 || d.pos >= TOTAL) return "";
+    return `<p class="continuar">Continúas en el supuesto ${d.pos+1} de ${TOTAL}</p>`;
+  };
+  let aviso = "";
+  if(sinBanco) aviso = `<p class="nota-banco">Banco pendiente de carga: 0 de ${TOTAL_BANCO} enunciados disponibles. Solo se muestran supuestos cuyo texto procede de su documento original.</p>`;
+  else if(TOTAL < TOTAL_BANCO) aviso = `<p class="nota-banco">Disponibles ${TOTAL} de ${TOTAL_BANCO} supuestos del banco. El resto se incorporará cuando se cargue su documento original.</p>`;
+
+  pintar(cabecera(`<h1>Entrenador de Supuestos Prácticos PT</h1>
+    <p class="sub">Lee. Detecta. Decide.</p>`, "logo-inicio", "cab-inicio") + `
+  <main class="inicio">
+    <div class="niveles">
+      <section class="nivel" aria-labelledby="n1">
+        <p class="nivel-num">Nivel 1</p>
+        <h2 id="n1">Principiante</h2>
+        <p class="desc">Entrena las tres decisiones fundamentales de cualquier supuesto práctico.</p>
+        <ol class="pasos">
+          <li>Modalidad</li>
+          <li>Medida o medidas</li>
+          <li>Referente curricular<small>Únicamente cuando exista ACS o ACI</small></li>
+        </ol>
+        <button class="btn btn-bloque" data-accion="empezar" data-nivel="principiante" ${sinBanco?"disabled":""}>EMPEZAR NIVEL PRINCIPIANTE</button>
+        ${cont("principiante")}
+      </section>
+      <section class="nivel av" aria-labelledby="n2">
+        <p class="nivel-num">Nivel 2</p>
+        <h2 id="n2">Avanzado</h2>
+        <p class="desc">Identifica el supuesto y da un paso más en la intervención.</p>
+        <ol class="pasos">
+          <li>Modalidad</li>
+          <li>Medida o medidas</li>
+          <li>Referente curricular<small>Cuando proceda</small></li>
+          <li>Tipo o ámbitos del Programa Específico<small>Cuando forme parte de la solución</small></li>
+        </ol>
+        <button class="btn btn-bloque" data-accion="empezar" data-nivel="avanzado" ${sinBanco?"disabled":""}>EMPEZAR NIVEL AVANZADO</button>
+        ${cont("avanzado")}
+      </section>
+    </div>
+    ${aviso}
+  </main>`, "Elige nivel para empezar.");
+}
+
+function barraStats(d){
+  const res = Object.values(d.resultados);
+  const global = media(res.map(r=>r.total/100));
+  return `<div class="stats" aria-label="Estadísticas de la sesión">
+    <span>Supuestos realizados: <b>${res.length}/${TOTAL}</b></span>
+    <span>Supuestos perfectos: <b>${res.filter(r=>r.perfecto).length}</b></span>
+    <span class="stat-mini">Acierto global: <b>${pct(global)}</b><span class="barra" aria-hidden="true"><i style="width:${global===null?0:Math.round(global*100)}%"></i></span></span>
+  </div>`;
+}
+
+const marcaHtml = () => `
+  <div class="cab-marca">Entrenador de Supuestos Prácticos PT
+    <span class="chip">${estado.nivel === "avanzado" ? "Nivel avanzado" : "Nivel principiante"}</span>
+    <button class="enlace" data-accion="cambiar">Cambiar de nivel</button>
+  </div>`;
+
+function cabeceraEntrenador(d){
+  const hechos = Object.keys(d.resultados).length;
+  return cabecera(marcaHtml() + `
+    <div class="progreso">
+      <span class="prog-txt">Supuesto ${Math.min(d.pos+1,TOTAL)} de ${TOTAL}</span>
+      <span class="barra prog-barra" role="progressbar" aria-label="Supuestos completados en la ronda" aria-valuemin="0" aria-valuemax="${TOTAL}" aria-valuenow="${hechos}"><i style="width:${Math.round(hechos/TOTAL*100)}%"></i></span>
+    </div>
+    <div id="stats">${barraStats(d)}</div>`);
+}
+
+function vistaSupuesto(){
+  const d = datosNivel(estado.nivel);
+  if(d.pos >= d.orden.length){ vistaFin(); return; }
+  const s = POR_ID[d.orden[d.pos]];
+  const qs = preguntas(s, estado.nivel);
+  let parrafos = "", lista = [];
+  const cerrarLista = () => { if(lista.length){ parrafos += `<ul>${lista.map(t=>`<li>${esc(t)}</li>`).join("")}</ul>`; lista = []; } };
+  s.enunciado.split(/\n\s*\n/).forEach(p => {
+    p = p.trim();
+    if(p.startsWith("- ")) lista.push(p.slice(2));
+    else { cerrarLista(); parrafos += `<p>${esc(p)}</p>`; }
+  });
+  cerrarLista();
+
+  const preguntasHtml = qs.map((q,i) => `
+    <li class="preg" id="q-${q.key}" data-n="${i+1}">
+      <fieldset>
+        <legend>${esc(q.titulo)}</legend>
+        <p class="preg-ayuda"><span>${q.tipo==="multiple" ? "Puedes marcar varias opciones." : "Marca una opción."}</span></p>
+        <div class="ops">
+          ${q.lista.map(o => `
+            <label class="op" data-tipo="${q.tipo}" data-op="${o.id}">
+              <input type="${q.tipo==="unica"?"radio":"checkbox"}" name="${q.key}" value="${o.id}">
+              <span class="marca" aria-hidden="true"></span>
+              <span class="op-txt">${esc(o.txt)}</span>
+            </label>`).join("")}
+        </div>
+      </fieldset>
+    </li>`).join("");
+
+  app._supuesto = s; app._preguntas = qs;
+  pintar(cabeceraEntrenador(d) + `
+  <main class="zona">
+    <article class="enunciado" aria-labelledby="tit-sup">
+      <h2 id="tit-sup">Oposiciones ${s.anio} · Supuesto práctico n.º ${s.numero}</h2>
+      <div class="texto">${parrafos}</div>
+    </article>
+    <section aria-label="Preguntas del supuesto">
+      <ol class="carril">${preguntasHtml}</ol>
+      <div class="acciones" id="acciones">
+        <button class="btn btn-bloque" id="corregir" data-accion="corregir" disabled>CORREGIR SUPUESTO</button>
+        <p class="aviso" id="aviso"></p>
+      </div>
+      <div id="post"></div>
+    </section>
+  </main>`, `Supuesto ${d.pos+1} de ${TOTAL}. Oposiciones ${s.anio}, supuesto ${s.numero}.`);
+  actualizarBoton();
+}
+
+function respuestas(){
+  const r = {};
+  app._preguntas.forEach(q => {
+    const marcados = [...app.querySelectorAll(`input[name="${q.key}"]:checked`)].map(i=>i.value);
+    r[q.key] = q.tipo === "unica" ? (marcados[0] || null) : marcados;
+  });
+  return r;
+}
+function actualizarBoton(){
+  const b = $("#corregir", app); if(!b) return;
+  const r = respuestas();
+  const pendientes = app._preguntas.filter(q => q.tipo==="unica" ? !r[q.key] : !r[q.key].length).length;
+  b.disabled = pendientes > 0;
+  $("#aviso", app).textContent = pendientes === 0 ? "" :
+    (pendientes === 1 ? "Queda 1 pregunta por responder." : `Quedan ${pendientes} preguntas por responder.`);
+}
+
+function corregir(){
+  const s = app._supuesto, qs = app._preguntas, r = respuestas();
+  const d = datosNivel(estado.nivel);
+  app.querySelectorAll("fieldset").forEach(f => f.disabled = true);
+  $("#acciones", app).remove();
+
+  const evals = qs.map(q => ({ q, e: evaluar(q, s, r[q.key]) }));
+  const bloques = {};
+  evals.forEach(x => bloques[x.q.key] = x.e.puntos);
+  const total = Math.round(media(evals.map(x=>x.e.puntos)) * 100);
+  const perfecto = evals.every(x => x.e.puntos === 1);
+  d.resultados[s.id] = { total, perfecto, bloques };
+
+  const suave = !reducir(), paso = suave ? 260 : 0;
+  $("#q-modalidad", app).scrollIntoView({ behavior: suave ? "smooth" : "auto", block:"start" });
+  evals.forEach((x, i) => programar(() => pintarFeedback(x.q, x.e), 120 + i*paso));
+  programar(() => {
+    pintarFinal(s, total);
+    $("#stats", app).innerHTML = barraStats(d);
+    const hechos = Object.keys(d.resultados).length;
+    const pb = $(".prog-barra", app);
+    pb.setAttribute("aria-valuenow", hechos);
+    pb.firstElementChild.style.width = Math.round(hechos/TOTAL*100) + "%";
+    anuncio.textContent = `Supuesto corregido: ${total} de 100 puntos.`;
+  }, 120 + evals.length*paso + (suave ? 120 : 0));
+}
+
+function pintarFeedback(q, e){
+  const li = $("#q-" + q.key, app); if(!li) return;
+  li.dataset.estado = e.estado;
+  li.querySelectorAll(".op").forEach(op => {
+    const m = e.marcas[op.dataset.op]; if(!m) return;
+    op.classList.add(m[0]);
+    op.insertAdjacentHTML("beforeend", `<span class="op-tag">${esc(m[1])}</span>`);
+  });
+  const [sim, etiqueta] = SIMBOLO[e.estado];
+  li.querySelector("fieldset").insertAdjacentHTML("afterend",
+    `<div class="fb entra" data-e="${e.estado}">
+      <p class="fb-est"><span class="sim" aria-hidden="true">${sim}</span>${etiqueta}</p>
+      ${e.html}
+    </div>`);
+}
+
+function pintarFinal(s, total){
+  const destino = $("#post", app); if(!destino) return;
+  const filas = [];
+  filas.push(["Modalidad", opc(OPC.modalidad, s.modalidad).clave]);
+  filas.push([s.medidas.length>1 ? "Medidas" : "Medida", OPC.medidas.filter(o=>s.medidas.includes(o.id)).map(o=>o.clave).join(" + ")]);
+  if(tieneReferente(s)){
+    const { validas, preferente } = s.referente, pref = preferente || validas[0];
+    const otras = validas.filter(v=>v!==pref).map(v=>minusc(nombreRef(v)));
+    filas.push(["Referente curricular", otras.length ? `${nombreRef(pref)} (recomendado) o ${enumerar(otras)}` : nombreRef(pref)]);
+  }
+  if(estado.nivel === "avanzado" && s.medidas.includes("pe") && s.pe){
+    filas.push(["Programa Específico", s.pe.clave]);
+  }
+  const detectar = s.pistas.detectar;
+  destino.innerHTML = `
+    <div class="resultado entra">
+      <div class="nota"><strong>${total}</strong><span>/ 100 puntos en este supuesto</span></div>
+      <span class="barra" aria-hidden="true"><i style="width:${total}%"></i></span>
+      <section class="claves" aria-labelledby="tit-claves">
+        <h3 id="tit-claves">Claves del supuesto</h3>
+        <dl>${filas.map(([k,v])=>`<dt>${esc(k)}:</dt><dd>${esc(v)}</dd>`).join("")}</dl>
+        ${detectar ? `<h4>¿Qué había que detectar?</h4><p class="detectar">${esc(detectar)}</p>` : ""}
+      </section>
+      <div class="botones">
+        <button class="btn" data-accion="nuevo">NUEVO SUPUESTO DEL BANCO</button>
+        <button class="btn btn-sec" data-accion="reintentar">VOLVER A INTENTARLO</button>
+      </div>
+    </div>`;
+}
+
+function vistaFin(){
+  const d = datosNivel(estado.nivel);
+  const res = Object.values(d.resultados);
+  const bloque = k => media(res.filter(r=>r.bloques[k]!==undefined).map(r=>r.bloques[k]));
+  const filasPct = [["Acierto global", media(res.map(r=>r.total/100))], ["Acierto en modalidad", bloque("modalidad")], ["Acierto en medidas", bloque("medidas")], ["Acierto en referente curricular", bloque("referente")]];
+  if(estado.nivel === "avanzado") filasPct.push(["Acierto en Programa Específico", bloque("pe")]);
+  const fila = (etq, val, frac) => `<div class="fila"><span>${etq}</span><span class="val">${val}</span>${frac!==undefined ? `<span class="barra" aria-hidden="true"><i style="width:${frac===null?0:Math.round(frac*100)}%"></i></span>` : ""}</div>`;
+
+  pintar(cabecera(marcaHtml()) + `
+  <main class="fin">
+    <h1>¡Ronda completada!</h1>
+    <p class="sub">Has trabajado los ${TOTAL} supuestos del banco.</p>
+    <div class="tabla-fin">
+      ${fila("Supuestos realizados", `${res.length}/${TOTAL}`)}
+      ${fila("Supuestos perfectos", res.filter(r=>r.perfecto).length)}
+      ${filasPct.map(([e,v]) => fila(e, pct(v), v)).join("")}
+    </div>
+    <div class="botones">
+      <button class="btn" data-accion="repetir">REPETIR LOS ${TOTAL} SUPUESTOS</button>
+    </div>
+  </main>`, "Ronda completada.");
+}
+
+/* =====================================================================
+   EVENTOS
+   ===================================================================== */
+app.addEventListener("change", e => { if(e.target.matches("input")) actualizarBoton(); });
+app.addEventListener("click", e => {
+  const b = e.target.closest("[data-accion]"); if(!b || b.disabled) return;
+  const d = estado.nivel ? datosNivel(estado.nivel) : null;
+  switch(b.dataset.accion){
+    case "empezar": if(TOTAL){ estado.nivel = b.dataset.nivel; vistaSupuesto(); } break;
+    case "cambiar": vistaInicio(); break;
+    case "corregir": corregir(); break;
+    case "reintentar": vistaSupuesto(); break;
+    case "nuevo": d.pos++; vistaSupuesto(); break;
+    case "repetir": {
+      const ultimo = d.orden[d.orden.length-1];
+      estado.niveles[estado.nivel] = { orden:barajar(ACTIVOS.map(s=>s.id), ultimo), pos:0, resultados:{} };
+      vistaSupuesto(); break;
+    }
+  }
+});
+
+vistaInicio();
+</script>
+</body>
+</html>
